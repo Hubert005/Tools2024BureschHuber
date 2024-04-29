@@ -133,12 +133,12 @@ public class Main {
 			System.out.println("Error (insert): " + e.getMessage());
 		}
 	}
-	public int thisIsANewMethod(int z, int y) {
-		z = 0;
-		y = 1;
-		int w = z + y;
+	public int thisIsANewMethod(int z, int x) {
+		z = 17;
+		x = 1;
+		int v = z + y;
 
-		return w;
+		return v;
 	}
 
 }

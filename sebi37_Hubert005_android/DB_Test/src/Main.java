@@ -134,7 +134,9 @@ public class Main {
 		}
 	}
 	public void thisIsANewMethod() {
-
+		int z = 1;
+		int y = 2;
+		int w = z+y;
 	}
 
 }

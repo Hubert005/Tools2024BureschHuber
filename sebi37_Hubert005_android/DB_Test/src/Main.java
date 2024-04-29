@@ -133,4 +133,8 @@ public class Main {
 			System.out.println("Error (insert): " + e.getMessage());
 		}
 	}
+	public void thisIsANewMethod() {
+
+	}
+
 }

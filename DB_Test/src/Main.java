@@ -137,6 +137,9 @@ public class Main {
 	}
 	
 	public void thisIsANewMethod() { 
+		int x = 1;
+		int y = 2;
+		int w = x*y;
 		
 	}
 }

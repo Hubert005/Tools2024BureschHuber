@@ -1,9 +1,9 @@
 import java.sql.Connection;
-import java.util.Scanner;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.Scanner;
 // this is just a useless comment *****************
 public class Main {
 
@@ -133,10 +133,12 @@ public class Main {
 			System.out.println("Error (insert): " + e.getMessage());
 		}
 	}
-	public void thisIsANewMethod() {
-		int z = 0;
-		int y= 1;
+	public int thisIsANewMethod(int z, int y) {
+		z = 0;
+		y = 1;
 		int w = z + y;
+
+		return w;
 	}
 
 }

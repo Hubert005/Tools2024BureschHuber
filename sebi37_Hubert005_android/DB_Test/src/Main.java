@@ -134,9 +134,15 @@ public class Main {
 		}
 	}
 	public void thisIsANewMethod() {
+<<<<<<< HEAD
 		int z = 1;
 		int y = 2;
 		int w = z+y;
+=======
+		int z = 0;
+		int y= 1;
+		int w = z + y;
+>>>>>>> 132e99aaf96e51cbc5ded96be68ac4d4a37415f2
 	}
 
 }
